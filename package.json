@@ -1,0 +1,63 @@
+{
+    "name": "reims-js-2103-hackathon-lache-pas-la-grappe",
+    "homepage": "./",
+    "main": "./electron/main.js",
+    "version": "0.1.0",
+    "private": true,
+    "dependencies": {
+        "@testing-library/jest-dom": "^5.12.0",
+        "@testing-library/react": "^11.2.6",
+        "@testing-library/user-event": "^12.8.3",
+        "concurrently": "^6.2.0",
+        "electron": "^13.1.6",
+        "electron-builder": "^22.11.7",
+        "electron-is-dev": "^2.0.0",
+        "leaflet": "^1.7.1",
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2",
+        "react-icons": "^4.2.0",
+        "react-leaflet": "^3.1.0",
+        "react-router-dom": "^5.2.0",
+        "react-score-indicator": "^2.2.1",
+        "react-scripts": "4.0.3",
+        "wait-on": "^6.0.0",
+        "web-vitals": "^1.1.2"
+    },
+    "scripts": {
+        "dev": "concurrently \"npm start\" \"wait-on http://localhost:3000 && electron .\"",
+        "start": "react-scripts start",
+        "build": "react-scripts build",
+        "test": "react-scripts test",
+        "ebuild": "npm run build && node_modules/.bin/build",
+        "eject": "react-scripts eject"
+    },
+    "eslintConfig": {
+        "extends": [
+            "react-app",
+            "react-app/jest"
+        ]
+    },
+    "browserslist": {
+        "production": [
+            ">0.2%",
+            "not dead",
+            "not op_mini all"
+        ],
+        "development": [
+            "last 1 chrome version",
+            "last 1 firefox version",
+            "last 1 safari version"
+        ]
+    },
+    "devDependencies": {
+        "babel-eslint": "^10.1.0",
+        "eslint": "^7.26.0",
+        "eslint-config-airbnb": "^18.2.1",
+        "eslint-config-prettier": "^8.3.0",
+        "eslint-plugin-import": "^2.22.1",
+        "eslint-plugin-react": "^7.23.2",
+        "electron": "^13.1.6",
+        "prettier": "^2.3.0",
+        "pretty-quick": "^3.1.0"
+    }
+}

@@ -1,0 +1,50 @@
+.plantsHeader {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.button {
+    display: inline;
+    flex-direction: row;
+    justify-items: center;
+    width: 18vh;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    padding: 20px 32px;
+    margin: 20px 0;
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+}
+
+.button-gray {
+    display: inline;
+    flex-direction: row;
+    justify-items: center;
+    width: 18vh;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    padding: 20px 32px;
+    margin: 20px 0;
+    background-color: darkgray;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 12px;
+    cursor: initial;
+}
+
+
+.pics {
+    height: 5vh;
+    width: 5vh;
+}
